@@ -1,0 +1,101 @@
+body{
+
+    padding: 5%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.heading{
+ 
+    color: blue ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.des{
+
+    font-size: 16px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tr1 {
+    border-right: 3px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+
+    animation: animatedText1 4s linear 1s 1 normal both , animatedCursor1 linear 600ms  infinite
+}
+
+@keyframes animatedText1 {
+from{width: 0;}
+to{width: 500px;}
+}
+@keyframes animatedCursor1 {
+from{ border-right-color: green;}
+to{border-right-color: transparent;}    
+}
+
+
+#tr2 {
+         border-right: 3px solid green;
+         white-space: nowrap;
+         overflow: hidden;
+         display: inline-block;
+
+         animation: animatedText2 4s steps(29,end) 1s 1 normal both , animatedCursor2 steps(29,end) 600ms  infinite
+}
+
+@keyframes animatedText2 {
+    from{width: 0;}
+    to{width: 500px;}
+}
+@keyframes animatedCursor2 {
+    from{ border-right-color: green;}
+    to{border-right-color: transparent;}    
+}
+
+#tr3 {
+    border-right: 3px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: auto auto;
+    
+
+    animation: animatedText3 4s steps(29,end) 1s 1 normal both , animatedCursor3 steps(29,end) 600ms  infinite
+}
+
+@keyframes animatedText3 {
+from{width: 0;}
+to{width: 500px;}
+}
+@keyframes animatedCursor3 {
+from{ border-right-color: green;}
+to{border-right-color: transparent;}    
+}
+
+#tr4 {
+    border-right: 3px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    right: 57%;
+    display: inline-block;
+    
+    animation: animatedText4 4s steps(29,end) 1s 1 normal both , animatedCursor4 steps(29,end) 600ms  infinite
+}
+
+@keyframes animatedText4 {
+from{width: 0;}
+to{width: 500px;}
+}
+@keyframes animatedCursor4 {
+from{ border-right-color: green;}
+to{border-right-color: transparent;}    
+}
+
